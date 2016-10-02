@@ -1,0 +1,1 @@
+gunicorn --worker=3 Corgi:app -b 0.0.0.0.5000
