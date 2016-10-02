@@ -9,7 +9,8 @@ def hello_world():
 
 @app.route('/resume')
 def resume():
-    return render_template('/templates/resume/index.html')
+    # return render_template('/templates/resume/index.html')
+    return 'resume'
 
 if __name__ == '__main__':
     app.run()
